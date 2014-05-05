@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-OSD Simple Table plugin allows you to quickly create tables within your Wordpress content area using simple tags.  This plugin is very easy to use and extremely light weight.
+OSD Simple Table plugin allows you to quickly create tables using simple tags.  This plugin is very easy to use and extremely light weight.
 
 == Description ==
 
