@@ -15,7 +15,7 @@ OSD Simple Table plugin allows you to quickly create tables within your Wordpres
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload the osd-simple-table directory to your `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Visit the settings page under Settings > OSD Simple Table
 
@@ -40,7 +40,7 @@ Yes, as users ask us questions.
 = 1.0 =
 Fixes poor table creation in Wordpress. You should upgrade to the Simple Table plugin.
 
-== A brief Markdown Example ==
+== A brief Feature List ==
 
 1. HTML5 Compliant
 2. Widths
