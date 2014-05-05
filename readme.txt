@@ -55,7 +55,7 @@ Fixes poor table creation in Wordpress. You should upgrade to the Simple Table p
 11. define delimiters and line break placeholders on a per table basis
 12. define custom delimiters
 
-Link to plugin page [Wordpress plugin page](http://wordpress.org/link "Link").
+Link to plugin page [Wordpress plugin page](http://wordpress.org/plugins/osd-simple-table/ "Link").
 
 [markdown syntax]: http://daringfireball.net/projects/markdown/syntax
             "Markdown is what the parser uses to process much of the readme file"
