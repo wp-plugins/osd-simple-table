@@ -3,7 +3,7 @@
 Plugin Name: OSD Simple Table Generator
 Plugin URI: http://outsidesource.com
 Description: A plugin that uses short tags to generate clean html tables on your wordpress site.
-Version: 1.0
+Version: 1.1
 Author: OSD Web Development Team
 Author URI: http://outsidesource.com
 License: GPL2v2
