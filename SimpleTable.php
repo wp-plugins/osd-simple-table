@@ -83,7 +83,7 @@ Class SimpleTable {
             $useFooter = (preg_match(self::ATTRIBUTE_TF, $attributes, $match) && $match[1] == 1) ? true : false;
             $row_delimiter = (preg_match(self::ATTRIBUTE_RD, $attributes, $match)) ? $match[1] : $row_delimiter;
             $col_delimiter = (preg_match(self::ATTRIBUTE_CD, $attributes, $match)) ? $match[1] : $col_delimiter;
-            $class = (preg_match(self::ATTRIBUTE_CLASS, $attributes, $match)) ? $match[1] : $class;
+            $class = (preg_match(self::ATTRIBUTE_CLASS, $attributes, $match)) ? " ".$match[1] : $class;
             $patterns = array(self::ATTRIBUTE_TH, self::ATTRIBUTE_TF, self::ATTRIBUTE_RD, self::ATTRIBUTE_CD);
             $attributes = preg_replace($patterns, "", $attributes);
         }
@@ -93,7 +93,7 @@ Class SimpleTable {
         $table = str_replace(array(self::END_TABLE, $this->NEW_LINE), array("", "<br>"), $table);
 
         // Make table
-        $newTable = "<table class='simple-table ".$class."' ".$attributes.">";
+        $newTable = "<table class='simple-table".$class."' ".$attributes.">";
         $rows = explode($row_delimiter, $table);
         $rowSpan = array();
         $rowPos = -1;

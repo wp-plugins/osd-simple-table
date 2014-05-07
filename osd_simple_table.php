@@ -17,7 +17,7 @@ function osd_simple_table($content) {
 	$simpleTable = new SimpleTable($content, $options['line-break'], $options['row-delimiter'], $options['cell-delimiter']);
 	return $simpleTable->get();
 }
-add_filter('the_content', 'osd_simple_table', 1);
+add_filter('the_content', 'osd_simple_table', 100);
 
 /********************* ADMINISTRATION *************************/
 if(is_admin()){

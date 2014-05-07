@@ -3,7 +3,7 @@ Contributors: osdwebdev
 Tags: tables, table, shortcode, easy table, table generator, simple table, html5
 Requires at least: 3.4
 Tested up to: 3.9
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,10 @@ Yes, as users ask us questions.
 
 = 1.0 =
 * Initial creation of the Simple Table generator
+
+= 1.1 =
+* Changed SimpleTable priority so that tables would be filtered after Wordpress's filters
+* Removed trailing space from the end of the table's classname
 
 == Upgrade Notice ==
 
