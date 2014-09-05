@@ -2,7 +2,7 @@
 Contributors: osdwebdev
 Tags: tables, table, shortcode, easy table, table generator, simple table, html5
 Requires at least: 3.4
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
