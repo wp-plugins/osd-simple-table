@@ -32,17 +32,14 @@ Yes, as users ask us questions.
 
 == Changelog ==
 
-= 1.0 =
-* Initial creation of the Simple Table generator
-
 = 1.1 =
 * Changed SimpleTable priority so that tables would be filtered after Wordpress's filters
 * Removed trailing space from the end of the table's classname
 
-== Upgrade Notice ==
-
 = 1.0 =
-Fixes poor table creation in Wordpress. You should upgrade to the Simple Table plugin.
+* Initial creation of the Simple Table generator
+
+== Upgrade Notice ==
 
 == A brief Feature List ==
 
