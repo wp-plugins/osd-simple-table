@@ -2,8 +2,8 @@
 Contributors: osdwebdev
 Tags: tables, table, shortcode, easy table, table generator, simple table, html5
 Requires at least: 3.4
-Tested up to: 4.0
-Stable tag: 1.1
+Tested up to: 4.0.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,9 @@ Yes, as users ask us questions.
 2. OSD Simple Table in Action
 
 == Changelog ==
+
+= 1.2 =
+* Fixed WordPress's formatting changes that broke attributes
 
 = 1.1 =
 * Changed SimpleTable priority so that tables would be filtered after Wordpress's filters

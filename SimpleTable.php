@@ -72,8 +72,11 @@ Class SimpleTable {
 
         // Get end position of table, get the table substring, replace string with nothing
         $table_pos_end = strpos($this->string, self::END_TABLE, $this->table_pos_start + 1) + strlen(self::END_TABLE);
-        $table = substr($this->string, $this->table_pos_start, $table_pos_end - $this->table_pos_start);
+        $table = substr($this->string, $this->table_pos_start, $table_pos_end - $this->table_pos_start);        
         $this->string = substr_replace($this->string, "", $this->table_pos_start, $table_pos_end - $this->table_pos_start);
+
+        // Replace WordPress's texturized special characters (quotes, apostrophes, primes, .etc)
+        $table = str_replace(array("&#8216;","&#8217;","&#8220;","&#8221;", "&#8211;", "&#8242;", "&#8243"), array("'", "'", "\"", "\"", "-", "'", "\""), $table);
 
         // Get attributes on table tag
         $attributes = (preg_match(self::START_TABLE, $table, $match)) ? $match[1] : null;
